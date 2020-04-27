@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="icon" href="Images/PokeballHeader.png">
+    <link rel="stylesheet" href="Styles/AccountStyles.css"></head>
+<body>
+
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
+
+
+        
+
+<div id="contact-form" class="clearfix">
+    <h1>PokeTruths Contact Forum</h1>
+    <h2>Please Do Not Hesitate To Contact Us Regarding Any Problems You May Have</h2>
+    <ul id="errors" class="">
+        <li id="info">There were some problems with your form submission:</li>
+    </ul>
+    <p id="success">Thanks for your message! One of Our Memebers Will Be With You As Soon As Possible</p>
+    <form method="post" action= "http://year1.ccpdev.me/FormTest.php">
+        <label for="name">Name: <span class="required">*</span></label>
+        <input type="text" id="name" name="name" value="" placeholder="Ben Dover" required="required" autofocus="autofocus" />
+         
+        <label for="email">Email Address: <span class="required">*</span></label>
+        <input type="email" id="email" name="email" value="" placeholder="PokeTruths@example.com" required="required" />
+         
+        <label for="telephone">Phone: </label>
+        <input type="tel" id="telephone" name="telephone" value="" />
+         
+        <label for="enquiry">Enquiry: </label>
+        <select id="enquiry" name="enquiry">
+            <option value="general">Location</option>
+            <option value="sales">Pokemon</option>
+            <option value="support">Website Support</option>
+        </select>
+         
+        <label for="message">Message: <span class="required">*</span></label>
+        <textarea id="message" name="message" placeholder="Your message here" required="required" data-minlength="1"></textarea>
+         
+        <span id="loading"></span>
+        <input type="submit" value="Submit" id="submit-button" />
+        <p id="req-field-desc"><span class="required">*</span> Indicates a required field</p>
+    </form>
+</div>
+        </body>        
+        
+        
+        
+        
+<footer>  
+        
+<div class="navbar" id="myNavbar">
+  <a href="index.html">Home</a>
+  <a href="AccountPage.html">Account</a>
+  <a href="Page3.html">Everything Pokemon</a>
+  <a href="Slideshow.html">Slideshow</a>
+    <pre>Copyright© 2020   </pre>
+</div>	
+
+</footer>
+        
+</html>
