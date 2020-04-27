@@ -43,6 +43,7 @@ body, html {
   
 }
 
+@media screen and (max-width: 767px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}}
 
 
 .navbar {
